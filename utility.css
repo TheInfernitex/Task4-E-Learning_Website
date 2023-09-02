@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@800&family=Quicksand&family=Tektur:wght@500&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Montserrat:wght@300;500;600;800;900&family=Open+Sans&display=swap');
+
+.varela{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.openSans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{display: flex;}
+.j-center{justify-content: center;}
+.j-spacear{justify-content: space-around;}
+.j-spacebetw{justify-content: space-between;}
+.a-center{align-items: center;}
+.f-col{flex-direction: column;}
+.rel{position: relative;}
+.abs{position:absolute;}

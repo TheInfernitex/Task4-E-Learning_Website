@@ -1,0 +1,492 @@
+:root{
+    --bg-col: #ffffff;
+    --txt-col: #22100d;
+    --second-col: #685f78;
+    --main-col: #ff8d2d;
+    --big-font:3.8rem;
+    --p-font:1.1rem;
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    overflow-x: hidden;
+    color:var(--txt-col);
+}
+
+
+
+header{
+    position: fixed;
+    width: 100vw;
+    height:85px;
+    z-index: 1;
+}
+header.moved{
+    background-color: rgb(255, 255, 255) !important;
+    width: 100%;
+    height:10vh;
+    box-shadow: 0px 4px 15px rgba(206, 206, 206, 0.758);
+}
+.logo{
+    margin:0% 10%;
+    height:100%;width:20%;
+}
+ul{
+    list-style-type: none;
+    height:100%;width:50%;
+}
+.navBar{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:var(--txt-col);
+}
+.icons{
+    height:100%;width:15%;
+    margin:0% 10%;
+}
+.icons .navItem{
+    margin:0 2%;
+    height: 30px;
+    width: 30px;
+}
+.navBar li :hover, .navItem:hover{
+    cursor: pointer;
+    color:rgb(255, 106, 0);
+    font-size: large;
+    transform: scale(1.1);
+}
+.sideImg{
+    width:100%;
+    height:100%;
+}
+.sideBar{
+    width:26px;
+    height:26px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: none;
+}
+.sideImg:hover,.sideBar:hover{
+    cursor: pointer;
+}
+
+
+
+.btn{
+    margin:6% 0;
+    padding:3%;
+    background-color: black;
+    color:#ff8d2d;
+    font-size:small;
+    font-weight: 600;
+    border:1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px rgb(72, 72, 72);
+    /* position: absolute; */
+
+}
+.btn:hover,.bttn:hover{
+    transform: scale(1.1);
+    transition: all 0.1s ease;
+}
+
+
+.bttn{
+    margin:3%;
+    background-color: #ff8d2d;
+    color: white;
+    border-radius: 50px;
+    padding:1% !important;
+    cursor: pointer;
+}
+
+#home{
+    width:100vw;
+    margin:auto;
+    height:100vh;
+    background-image: url("assets/images/backg1.jpg");
+    background-size: cover;
+}
+.homeText{
+    width:50%;
+    height:20%;
+    font-size: larger;
+}
+#home img{
+    height:auto;
+    width:30%;
+    margin-right: 10%;
+}
+
+
+
+.container{
+    width:100vw;
+    height:50vh;
+}
+.containItems{
+    margin: auto;
+    width:80%;
+    height:50vh;
+}
+.contain{
+    width:25%;height:25%;
+    border: 1px solid rgb(205, 205, 205);
+    box-shadow: 0px 2px 5px rgb(186, 186, 186);
+    border-radius: 50px;
+    margin:2%;
+}
+.contain img{
+    height:8vh;width:10vh;
+    border-radius: 50%;
+}
+
+
+#categories{
+    height:70vh;
+    background-image: url("assets/images/backg1.jpg");
+    background-size: cover;
+}
+#categories>p{
+    margin-bottom: 5%;
+    background-color: #ff8d2d;
+    color: white;
+    border-radius: 50px;
+    padding:1%;
+    cursor: pointer;
+}
+#categories>p:hover{
+    transform: scale(1.1);
+}
+.centerText{
+    margin-top: 3%;margin-bottom: 2%;
+    text-align: center !important;
+}
+.centerText h5{
+    color:#ff7707;
+}
+.centerText h2{
+    font-size: xx-large;
+}
+.categories{
+    width:80%;
+    margin:auto;
+    height:60vh;
+}
+.categ{
+    width:25%;height:70%;
+    border: 1px solid black;
+    box-shadow: 0px 2px 5px rgb(117, 117, 117);
+    border-radius: 10%;
+    margin:2%;
+}
+.categ img{
+    height: 40%;width: 70%;
+    margin-bottom: 8%;
+    border-radius: 10%;
+}
+.categ h4{
+    text-align: center;
+}
+
+#courses{
+    height:calc(100vh-85px);width:100%;
+}
+.courses1{
+    height:40vh;width:100%;
+    margin-bottom: 2%;
+}
+.courses2{
+    height:40vh;width:100%;
+}
+.course{
+    height:32vh;
+    width:23vw;
+    border:2px solid grey;
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px 3px rgb(97, 97, 97);
+}
+.course{
+    font-size:small;
+    padding: 1%;
+}
+.course1:hover,.course2:hover,.course3:hover,.course4:hover,.course5:hover,.course6:hover{
+    cursor: pointer;
+    transform: translateY(-5%);
+}
+.course h5{
+    color:#ff8d2d;
+    margin-bottom: 1%;
+}
+.course h6{
+    margin:1% 0;
+}
+.rating{
+    color:purple;
+}
+.course img{
+    height:50%;
+    width:80%;
+    margin-bottom: 1%;
+}
+
+#courses>p{
+    margin:1% 0 2% 0;
+    background-color: #ff8d2d;
+    color: white;
+    border-radius: 50px;
+    padding:1%;
+    cursor: pointer;
+}
+#courses>p:hover{
+    transform: scale(1.1);
+}
+
+
+#cta{
+    height:60vh;
+    width:100%;
+    background-image: url("assets/images/backg1.jpg");
+    background-size: cover;
+}
+#cta img{
+    width:60%;
+    height:50%;
+}
+
+
+#about{
+    height:80vh;
+    width:100%;
+}
+#about img{
+    width:50%;
+}
+.aboutText{
+    width:30%;
+}
+.aboutText p{
+    margin:4% 0;
+}
+.aboutText h5{
+    margin:2% 0;
+}
+.aboutText .bttn{
+    padding:2%;
+}
+
+
+#contact{
+    width:100%;
+    height:30vh;
+    background-image: url("assets/images/backg1.jpg");
+    background-size: cover;
+}
+#contact .logo h3{
+    font-size: medium;
+}
+#contact a:hover{
+    color:#ff7707;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+/**RESPONSIVENESS**/
+
+
+@media screen and (max-width:1000px)
+{
+    .logo,.icons{
+        margin:0%;
+    }
+    .contain{
+        padding: 2%;
+    }
+    .icons{
+        margin-right: 4%;
+    }
+    .logo{
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width:710px)
+{
+    #home{
+        height:80vh;
+    }
+    .container{
+        height:90vh;width:100%;
+        padding:15% 0;
+    }
+    .containItems{
+        height:90vh;width:100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contain{
+        width:60%;
+        height:10%;
+    }
+    .categ{
+        height:40%;
+    }
+    .categories.btn{
+        padding:4% !important;
+    }
+
+    .course{
+        width:28vw;
+    }
+    .logo,.icons{
+        margin:0% 10%;
+    }
+    .sideBar{
+        display: block;
+    }
+    .sideImg{
+        display: inline;
+        width: 25px;
+        font-weight: bolder;
+    }
+    .navBar{
+        position: absolute;
+        top:70px;
+        right:10px;
+        background-color: #ff8c00f2 !important;
+        border-radius: 10%;
+        box-shadow: 0px 0px 8px 2px #6f3403e4;
+        height:70vh;
+        width:30vw;
+        visibility: hidden;
+        justify-content: center !important;
+        flex-direction: column;
+        z-index: 1;
+    }
+    .icons{
+        width:25%;
+    }
+    .navItem{
+        margin:0 10%;
+    }
+    .navBar li{
+        margin:15% 0;
+    }
+}
+@media screen and (max-width:600px)
+{
+    #categories{
+        height:140vh;
+    }
+    #categories .categories{
+        flex-direction: column;
+        justify-content: center;
+        height:90%;
+    }
+    .centerText h5{
+        color:brown;
+    }
+    .categ{
+        width:50% !important;
+        height: 30%;
+    }
+
+    #courses{
+        height:160vh;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .courses1,.courses2{
+        flex-direction: column;
+        justify-content: center;
+        height:80%;width:90%;
+    }
+    #courses .centerText{
+        position: absolute;
+        top:3%;left:18vw;
+        font-size: medium !important;
+    }
+    .course{
+        margin:3% auto;
+        width:80%;
+    }
+    #courses .bttn{
+        position: absolute;
+        bottom:4%;left:42%;
+        padding:3%;
+    }
+
+    #cta{
+        height:80vh;
+    }
+
+    #cta img{
+        width:90%;
+        height:70vw;
+    }
+    .centerText h2{
+        font-size: larger;
+    }
+}
+@media screen and (max-width:550px)
+{
+    #home{
+        height:70vh;
+    }
+    .textHome{
+        font-size: medium;
+        height: 10vh;
+        margin-left:10%;
+        margin-bottom: 30%;
+    }
+    #home img{
+        margin:0 10% 0 5%;
+    }
+    #home .btn{
+        position: absolute;
+        bottom:35%;
+        left:45%;
+        padding:2%;
+    }
+    .contact2, .contact3{
+        font-size: 0%;
+        height: 0;width: 0;
+    }
+
+}
+@media screen and (max-width:490px)
+{
+    .logo{
+        font-size: small;
+        margin-left: 10%;
+    }
+
+    #about{
+        flex-direction: column;
+    }
+    .aboutText{
+        font-size: small !important;
+        width:90%;
+    }
+}
+@media screen and (max-width:400px)
+{
+    #contact{
+        height: 15vh;
+    }
+    .contact1, .contact4{
+        font-size:60% !important;
+    }
+    .logo{
+        margin-left: 15%;
+    }
+    .textHome p{
+        font-size: small;
+    }
+}
